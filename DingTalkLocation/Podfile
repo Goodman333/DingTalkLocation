@@ -1,0 +1,27 @@
+# Uncomment the next line to define a global platform for your project
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/AloneMonkey/MonkeyDevSpecs.git'  #不可少
+
+use_frameworks!						#不可少
+platform :ios, '8.0'
+
+target 'DingTalkLocation' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for DingTalkLocation
+
+end
+
+target 'DingTalkLocationDylib' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for DingTalkLocationDylib
+
+  pod 'MDSettingCenter' #设置中心
+  
+  pod 'AMap3DMap' #3D地图SDK
+  pod 'SCLAlertView-Objective-C' #好看的AlertView
+
+end
